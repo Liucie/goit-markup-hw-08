@@ -1,5 +1,20 @@
 .mm-socials {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--accent-color);
+
   @media screen and(min-width:767.98px) {
     display: none;
   }
+}
+.mm-socials__item {
+  padding-right: 10px;
+}
+
+.mm-socials__item:not(:last-child) {
+  margin-right: 10px;
+  border-right: solid 1px rgba(33, 33, 33, 0.2);
 }
