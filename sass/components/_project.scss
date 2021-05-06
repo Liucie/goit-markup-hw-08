@@ -15,6 +15,7 @@
 
 .project__link {
   display: block;
+
   transition: box-shadow var(--animation);
 
   &:hover {
@@ -47,15 +48,20 @@
 }
 
 .project__text {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+
+  flex-grow: 2;
 
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+@media screen and(min-width:768px) and(max-width:1199.98px) {
+  .project:first-child .project__text {
+    padding-bottom: 56px;
+  }
+}
+
 .project__title {
   margin-bottom: 4px;
 
