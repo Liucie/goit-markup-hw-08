@@ -28,6 +28,7 @@
 
   @media screen and(min-width: 1200px) {
     flex-basis: calc((50% - 45px) / 2);
+    text-align: left;
   }
 }
 
@@ -38,7 +39,6 @@
 .footer__socials {
   flex-basis: 100%;
   margin-bottom: 60px;
-
   text-align: center;
 
   @media screen and(min-width:768px) {
@@ -47,6 +47,7 @@
 
   @media screen and(min-width: 1200px) {
     flex-basis: calc((50% - 45px) / 2);
+    text-align: left;
   }
 }
 .footer__text {
@@ -68,5 +69,6 @@
 
   @media screen and(min-width: 1200px) {
     flex-basis: calc(50% - 15px);
+    text-align: left;
   }
 }
