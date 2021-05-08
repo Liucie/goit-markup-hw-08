@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  margin-top: -15px;
   @media screen and(min-width:768px) {
     justify-content: center;
     margin-bottom: 30px;
@@ -15,9 +16,15 @@
   margin-right: 8px;
 }
 @media screen and(max-width:767.98px) {
-  .filters__item:nth-child(n + 4) {
+  .filters {
+    margin-top: -15px;
+  }
+  .filters__item {
     margin-top: 15px;
   }
+  /* .filters__item:nth-child(n + 4) {
+    margin-top: 15px;
+  }*/
 }
 .filters__btn {
   padding: 6px 22px;
