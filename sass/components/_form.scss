@@ -100,12 +100,23 @@
     border: none;
   }
 }
+.form__checkbox-title {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  @media screen and(min-width:480px) {
+    white-space: nowrap;
+  }
+}
 
 .form__checkbox-text {
   color: var(--secondary-text-color);
 }
 .form__checkbox-link {
   color: var(--accent-color);
+  letter-spacing: 0.03em;
+  outline: solid 1px blue;
 }
 .form__submit-btn {
   display: block;
